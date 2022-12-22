@@ -31,13 +31,34 @@ body {
     min-height: 100vh;
 }
 
-.card, .qr-code {
-    border-radius: 1.6rem;
-}
-
 .card {
+    min-height: 100%;
+    align-items: center;
     max-width: 288px;
     background-color: var(--White);
+    border-radius: 1.5rem;
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.description {
+    text-align: center;
+    gap: 1.6rem;
+    margin: 1rem 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: var(--Dark-blue);
+}
+
+p {
+    font-size: 1.5rem;
+    color: var(--Grayish-blue)
 }
 
 .qr-code {
