@@ -31,17 +31,17 @@ body {
     min-height: 100vh;
 }
 
-.card, .qr-code {
-    border-radius: 1.6rem;
-}
-
 .card {
+    min-height: 100%;
+    align-items: center;
     max-width: 288px;
     background-color: var(--White);
+    border-radius: 1.5rem;
 }
 
 .qr-code {
     width: 100%;
+    border-radius: 1rem;
 }
 
 .description {
